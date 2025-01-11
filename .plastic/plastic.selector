@@ -1,0 +1,4 @@
+repository "SbsFirstProject@gtv1523411@cloud"
+  path "/"
+    br "/main"
+    co "/main"
