@@ -17,6 +17,7 @@ public class FirstScript : MonoBehaviour
     void Start()
     {
         hp = hp - 100;
+        Debug.Log("Hello World");
 
         if (hp <= 0)
         {

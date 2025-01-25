@@ -60,15 +60,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="/Users/qlee/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.5/Analyzers/Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="/Users/qlee/Documents/dev/game/SbsFirstProject/Library/PackageCache/com.unity.collab-proxy@2.6.0/Lib/Editor/unityplastic.dll" />
-    <Analyzer Include="/Users/qlee/Documents/dev/game/SbsFirstProject/Library/PackageCache/com.unity.collab-proxy@2.6.0/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll" />
-    <Analyzer Include="/Users/qlee/Documents/dev/game/SbsFirstProject/Library/PackageCache/com.unity.collab-proxy@2.6.0/Lib/Editor/log4netPlastic.dll" />
-    <Analyzer Include="/Users/qlee/Documents/dev/game/SbsFirstProject/Library/PackageCache/com.unity.collab-proxy@2.6.0/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.47f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/02.Scripts/EnemyController.cs" />
+    <Compile Include="Assets/02.Scripts/PlayerBController.cs" />
+    <Compile Include="Assets/02.Scripts/PlayerController.cs" />
     <Compile Include="Assets/02.Scripts/FirstScript.cs" />
+    <Compile Include="Assets/02.Scripts/EnemyManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
